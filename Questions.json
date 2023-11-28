@@ -1,0 +1,284 @@
+{
+  "questions": [
+    {
+      "question": "Cei trei „i” din cuvântul ciocoii sunt, în ordine:",
+      "answers": [
+        "semn grafic, semivocală, vocală",
+        "semivocală, vocală, semivocală",
+        "semn grafic, semivocală, vocală",
+        "semn grafic, vocală, semivocală"
+      ],
+      "correct_answer": "semn grafic, semivocală, vocală"
+    },
+    {
+      "question": "Cuvântul plastograf înseamnă:",
+      "answers": [
+        "cineva care scrie ilizibil",
+        "aparat de măsură",
+        "falsificator de documente",
+        "erudit"
+      ],
+      "correct_answer": "falsificator de documente"
+    },
+    {
+      "question": "Indică seria care conţine numai cuvinte care pot avea omonime:",
+      "answers": [
+        "bursă, capră, carieră, milă, ţap",
+        "cardinal, ton, tablă, sol, soare",
+        "toc, şah, climat, sirenă, poartă",
+        "somn, roman, război, muncitor, parchet"
+      ],
+      "correct_answer": "bursă, capră, carieră, milă, ţap"
+    },
+    {
+      "question": "În textul: „Afla-vei de la Dragoş-vodă, din descălecatul ţării..., la letopiseţul lui, pre rândul său scrise domniile ţării.” (Miron Costin), întâlnim:",
+      "answers": [
+        "2 arhaisme",
+        "3 arhaisme",
+        "4 arhaisme",
+        "5 arhaisme sau mai multe"
+      ],
+      "correct_answer": "5 arhaisme sau mai multe"
+    },
+    {
+      "question": "Indicaţi seria în care toate cuvintele sunt corect despărţite în silabe:",
+      "answers": [
+        "de-u-năzi, e-xil, a-bro-ga, sa-vant-lâc, fii-că, di-plo-mat",
+        "în-ă-crea-lă, po-ves-te, bu-năs-ta-re, sub-strat, ins-tru-ment",
+        "pro-gno-ză, clor-a-mi-nă, si-nu-ci-de-re, in-e-dit, ling-vist",
+        "in-ex-pre-siv, dez-in-te-res, an-tarc-tic, vâ-slă, i-napt"
+      ],
+      "correct_answer": "de-u-năzi, e-xil, a-bro-ga, sa-vant-lâc, fii-că, di-plo-mat"
+    },
+    {
+      "question": "În enunţul: „În adâncul inimii îi era recunoscător.”, întâlnim următoarele procedee de îmbogăţire a vocabularului:",
+      "answers": [
+        "derivarea",
+        "derivarea şi conversiunea",
+        "derivarea, compunerea şi conversiunea",
+        "conversiunea"
+      ],
+      "correct_answer": "derivarea şi conversiunea"
+    },
+    {
+      "question": "În enunţul: „Contrar aşteptărilor mele şi împotriva cursului jocului, echipa voastră a câştigat meciul contra noastră.”, cuvintele subliniate sunt, în ordine, la cazul:",
+      "answers": [
+        "G, G, G, G, G",
+        "G, G, D, N, G",
+        "D, G, G, N, G",
+        "D, G, G, N, A"
+      ],
+      "correct_answer": "D, G, G, N, A"
+    },
+    {
+      "question": "Identifică enunţul corect:",
+      "answers": [
+        "Dicţionarele sunt cele mai strâns legate de practică.",
+        "Avea nişte dinţi strălucitori de albi.",
+        "Spectatorii au fost destui de numeroşi.",
+        "Lucrările cel mai greu de realizat abia acum urmează."
+      ],
+      "correct_answer": "Lucrările cel mai greu de realizat abia acum urmează."
+    },
+    {
+      "question": "Sunt la superlativ absolut următoarele construcţii: 1.plânge ce plânge 2.ce frumos curge! 3.ce gânduri are...",
+      "answers": [
+        "1, 2, 3",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "2"
+    },
+    {
+      "question": "Indică numărul părţilor de propoziţie exprimate din enunţul: „O, mamă, dulce mamă, din negură de vremi, / Pe freamătul de frunze la tine tu mă chemi.”",
+      "answers": [
+        "8 părţi de propoziţie",
+        "9 părţi de propoziţie",
+        "10 părţi de propoziţie",
+        "11 părţi de propoziţie"
+      ],
+      "correct_answer": "9 părţi de propoziţie"
+    },
+    {
+      "question": "În enunţul: „Nu doarme niciodată ziua, dar se culcă devreme în fiecare seară.”, cuvintele subliniate sunt, în ordine:",
+      "answers": [
+        "adverb, substantiv",
+        "substantiv, adverb",
+        "adverb, adverb",
+        "substantiv, substantiv"
+      ],
+      "correct_answer": "substantiv, adverb"
+    },
+    {
+      "question": "Indică fraza care conţine cel puţin o propoziţie subordonată subiectivă:",
+      "answers": [
+        "Cel dintâi părea că e frânt de oboseală.",
+        "De prisos să mai insişti să-l convingi.",
+        "E puţin probabil faptul că el ar fi făcut accidentul.",
+        "E important a şti să te descurci în viaţă."
+      ],
+      "correct_answer": "De prisos să mai insişti să-l convingi."
+    },
+    {
+      "question": "Identifică fraza care conţine un anacolut:",
+      "answers": [
+        "Oricine îi aude i se face milă de ei.",
+        "Spune-i cui te ascultă.",
+        "De văzut, nu l-am văzut când a venit.",
+        "A apelat la cine i-a ieşit în cale."
+      ],
+      "correct_answer": "De văzut, nu l-am văzut când a venit."
+    },
+    {
+      "question": "Indică frazele care conţin subiective: 1.Ce ţi-e scris, în frunte ţi-e pus. 2.Nu-mi pasă ce spune. 3.Mi-e indiferent ce doreşte. 4.Îmi pare rău c-a plecat.",
+      "answers": [
+        "1, 2, 3, 4",
+        "1, 2, 3",
+        "1, 3",
+        "1"
+      ],
+      "correct_answer": "1, 3"
+    },
+    {
+      "question": "În textul: „Şi dacă norii deşi se duc/ De iese-n luciu luna,/ E ca aminte să-mi aduc/ De tinentotdeauna.”, propoziţiile subordonate sunt:",
+      "answers": [
+        "o consecutivă, o finală, o subiectivă",
+        "o condiţională, o consecutivă, o predicativă",
+        "o concesivă, o consecutivă, o predicativă",
+        "o consecutivă, o finală, o subiectivă"
+      ],
+      "correct_answer": "o consecutivă, o finală, o subiectivă"
+    },
+    {
+      "question": "În fraza: „Mă miră că a avut tupeul să vină, deşi ar trebui să nu mă mai mire nimic din ce se întâmplă în ziua de azi.”, întâlnim, pe lângă alte subordonate, şi:",
+      "answers": [
+        "o consecutivă",
+        "două atributive",
+        "trei subiective",
+        "o completivă indirectă"
+      ],
+      "correct_answer": "două atributive"
+    },
+    {
+      "question": "În textul: „Numai omu-i schimbător, / Pe pământ rătăcitor, / Iar noi locului ne ţinem, / Cum am fost, aşa rămânem.”, întâlnim, indiferent de ordine, următoarele tipuri de propoziţii:",
+      "answers": [
+        "2 principale şi 2 subordonate",
+        "3 principale şi 2 subordonate",
+        "4 principale şi 1 subordonată",
+        "3 principale şi 1 subordonată"
+      ],
+      "correct_answer": "3 principale şi 1 subordonată"
+    },
+    {
+      "question": "În fraza: „Te-ar deranja dacă ar fi să mă duc singur să-l vizitez la spital?”, întâlnim următoarele tipuri de subordonate:",
+      "answers": [
+        "o condiţională, o subiectivă, o finală",
+        "o subiectivă, o predicativă, o finală",
+        "două subiective, o finală",
+        "o completivă directă, o predicativă, o finală"
+      ],
+      "correct_answer": "două subiective, o finală"
+    },
+    {
+      "question": "Indică enunţul corect:",
+      "answers": [
+        "Averea lui sunt cărţile.",
+        "Erai să te îneci.",
+        "Uzul şi abuzul de medicamente poate duce la afecţiuni ale ficatului.",
+        "În ceea ce privesc banii, nu ducea lipsă."
+      ],
+      "correct_answer": "Uzul şi abuzul de medicamente poate duce la afecţiuni ale ficatului."
+    },
+    {
+      "question": "Prin contragerea ultimei subordonate din fraza: „Las', mamă, că lumea asta nu-i numai cât se vede cu ochii...”, se obţine:",
+      "answers": [
+        "un c.c. de mod",
+        "un nume predicativ",
+        "un subiect",
+        "un compl.direct"
+      ],
+      "correct_answer": "un nume predicativ"
+    },
+    {
+      "question": "În fraza: „Mi-ar plăcea să cred că se ocupă mai puţin de nostalgiile vagi şi că se gândeşte la lumea în care trăim.”, există, pe lângă alte tipuri de subordonate:",
+      "answers": [
+        "două subiective",
+        "două atributive",
+        "două completive directe",
+        "o completivă indirectă"
+      ],
+      "correct_answer": "două completive directe"
+    },
+    {
+      "question": "Indică enunţul în care se află un verb la diateza pasivă cu valoare impersonală:",
+      "answers": [
+        "Oare ce ne va mai fi dat să trăim peste câţiva ani?",
+        "A fost rugat să se calmeze.",
+        "Nu este posibil să facă aşa ceva.",
+        "Memoriul i-a fost scris de altcineva."
+      ],
+      "correct_answer": "Oare ce ne va mai fi dat să trăim peste câţiva ani?"
+    },
+    {
+      "question": "Propoziţiile subordonate din enunţurile: „1.Ne pune dracu’ de urnim o stâncă. 2.Dacă n-am ţinut seama de vorbele lui, acum avem probleme. 3.Băietul se făcu cum e ursul. 4.Nu-i era de ajuns cât furase.”, sunt, în ordine:",
+      "answers": [
+        "o indirectă, o cauzală, o predicativă, o subiectivă",
+        "o directă, o cauzală, o predicativă, o subiectivă",
+        "o indirectă, o condiţională, o predicativă, o subiectivă",
+        "o directă, o condiţională, o predicativă, o subiectivă"
+      ],
+      "correct_answer": "o indirectă, o cauzală, o predicativă, o subiectivă"
+    },
+    {
+      "question": "Ce tip de coordonare există în fraza: „E o glumă şi nu o lua în seamă.”?",
+      "answers": [
+        "coordonare conclusivă",
+        "coordonare copulativă",
+        "coordonare adversativă",
+        "coordonare disjunctivă"
+      ],
+      "correct_answer": "coordonare conclusivă"
+    },
+    {
+      "question": "Subordonatele din frazele: „1.Unde îl vede, îl ia la întrebări. 2.Ai luat o notă mai mare decât mă aşteptam.”, sunt:",
+      "answers": [
+        "temporală, modală",
+        "cauzală, indirectă",
+        "locală, modală",
+        "locală, indirectă"
+      ],
+      "correct_answer": "temporală, modală"
+    },
+    {
+      "question": "Subordonatele din fraza: „Dacă e să fie, n-ai ce face.”, sunt, în ordine:",
+      "answers": [
+        "condiţională, predicativă",
+        "subiectivă, subiectivă",
+        "subiectivă, predicativă",
+        "condiţională, subiectivă"
+      ],
+      "correct_answer": "condiţională, subiectivă"
+    },
+    {
+      "question": "Indicaţi enunţul care nu conţine atribute adjectivale:",
+      "answers": [
+        "Acest copil va fi domnul ţării.",
+        "Părerea acestuia nu contează.",
+        "Ea este nepoata prietenei mele.",
+        "Notele acestui elev sunt foarte bune."
+      ],
+      "correct_answer": "Părerea acestuia nu contează."
+    },
+    {
+      "question": "Indicaţi funcţia sintactică a cuvintelor subliniate din textele: 1.Greşeala este a unuia dintre noi. 2.A sunat gornistul de plecare. 3.Am plecat la pescuit.",
+      "answers": [
+        "nume predicativ, c.scop, c.scop",
+        "atribut pronominal, c.scop, c.c. loc",
+        "nume predicativ, c.c.timp, c.c.loc",
+        "c.indirect, c.indirect, c.indirect"
+      ],
+      "correct_answer": "nume predicativ, c.scop, c.scop"
+    }
+  ]
+}

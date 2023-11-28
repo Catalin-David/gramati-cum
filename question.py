@@ -6,7 +6,7 @@ class Question:
             self.__id = uuid.uuid4()
             self.__question = question
             self.__answers = answers
-            self.__correct = correct
+            self.__correct = correct #the id of the correct answer
 
     @property
     def id(self):
@@ -38,11 +38,12 @@ class Question:
 
     def get_correct_answer(self):
         for answer in self.answers:
-             if answer.id == self.correct:
-                  return answer.answer
+            if answer.id == self.correct:
+                return answer.answer
+        return "Correct answer not found"  # Add this line to provide a default value
 
     def __str__(self):
-        result = "Question: " + self.question + "\nAnswers:\n"
+        result = "Intrebare: " + self.question + "\nRaspunsuri:\n"
         for answer in self.answers:
               result = result + answer.answer + "\n"
         result = result + "Correct: " + self.get_correct_answer() + "\n"

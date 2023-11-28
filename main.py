@@ -1,6 +1,7 @@
 from question import Question
 from answer import Answer
 from database import initialise_database
+from JSONtoDatabase import initialise_database_again
 import random
 
 def display_menu():
@@ -17,21 +18,26 @@ def take_quiz(quiz_size, questions):
 
     for i in range(quiz_size):
         question = questions[i]
-        print(question.question + "\n")
+        print(str(i+1)+' '+question.question )
         j=0
         options="abcd"
         for answer in question.answers:
             print(options[j] + ". " + answer.answer)
             j += 1
-        
-        choice = input("Your answer: ")
-        answer_chosen = options.find(choice)
-        if answer_chosen >= 0:
-            if question.answers[answer_chosen].id == question.correct:
+
+        chosen_answer = -1
+        while chosen_answer < 0:
+            choice = input("Raspunsul tau: ")
+            chosen_answer = options.find(choice)
+            if chosen_answer < 0:
+                print("Alege o varianta valida")
+
+        if chosen_answer >= 0:
+            if question.answers[chosen_answer].id == question.correct:
                 score = score + 1
-                print("Correct\n")
+                print("Corect\n")
             else:
-                print("Not correct\n")
+                print("Gresit\n")
     return score
         
 
@@ -44,7 +50,7 @@ def filter_questions(contains, questions):
 
 running = True
 quiz_size = 3
-questions = initialise_database()
+questions = initialise_database_again()
 while running:
     display_menu()
     option = int(input("Choose option: "))
@@ -66,3 +72,7 @@ while running:
     elif option == 0:
         running = False
 
+    else:
+        print("Valoarea selectata nu e in lista")
+
+1
