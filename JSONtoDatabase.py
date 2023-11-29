@@ -32,7 +32,7 @@ def create_question(question_data):
     )
     return question
 
-def initialise_database_again():
+def initialise_database():
     questions=[]
     json_file_path = 'Questions.json'  # Replace with the actual file path
     questions_data = load_questions_from_json(json_file_path)

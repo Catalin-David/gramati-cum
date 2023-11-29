@@ -1,7 +1,6 @@
 from question import Question
 from answer import Answer
-from database import initialise_database
-from JSONtoDatabase import initialise_database_again
+from JSONtoDatabase import initialise_database
 import random
 import csv
 import os
@@ -73,64 +72,57 @@ def filter_questions(contains, questions):
             filtered_list.append(question)
     return filtered_list
 
-running = True
 quiz_size = 3
-questions = initialise_database_again()
+questions = initialise_database()
 
 mode = input("prof/stud: ")
-if mode == "stud":
-    name = input("name: ")
-    while running:
-        display_menu_student()
-        option = int(input("Choose option: "))
-        if option == 1:
-            score = take_quiz(quiz_size, questions)
-            add_quiz_score(name, score)
-            print("Your score: " + str(score) + " out of " + str(quiz_size)) 
+while mode != "exit":
+    running = True
+    
+    if mode == "stud":
+        name = input("name: ")
+        while running:
+            display_menu_student()
+            option = int(input("Choose option: "))
+            if option == 1:
+                score = take_quiz(quiz_size, questions)
+                add_quiz_score(name, score)
+                print("Your score: " + str(score) + " out of " + str(quiz_size)) 
+                
+            elif option == 0:
+                running = False
 
-        elif option == 2:
-            for question in questions:
-                print(question)
+            else:
+                print("Valoarea selectata nu e in lista")
 
-        elif option == 3:
-            contains = input("Filter by: ")
-            found_questions = filter_questions(contains, questions)
-            for question in found_questions:
-                print(question)
-            
-        elif option == 0:
-            running = False
+    elif mode == "prof":
+        students = initialise_students()
+        while running:
+            display_menu_prof()
+            option = int(input("Choose option: "))
+            if option == 1:
+                for question in questions:
+                    print(question)
 
-        else:
-            print("Valoarea selectata nu e in lista")
+            elif option == 2:
+                contains = input("Filter by: ")
+                found_questions = filter_questions(contains, questions)
+                for question in found_questions:
+                    print(question)
 
-elif mode == "prof":
-    students = initialise_students()
-    while running:
-        display_menu_prof()
-        option = int(input("Choose option: "))
-        if option == 1:
-            for question in questions:
-                print(question)
+            elif option == 3:
+                for student in students:
+                    print(student)
 
-        elif option == 2:
-            contains = input("Filter by: ")
-            found_questions = filter_questions(contains, questions)
-            for question in found_questions:
-                print(question)
+            elif option == 4:
+                name = input("name: ")
+                for student in students:
+                    if name == student.name:
+                        print(student.scores)
 
-        elif option == 3:
-            for student in students:
-                print(student)
+            elif option == 0:
+                running = False
 
-        elif option == 4:
-            name = input("name: ")
-            for student in students:
-                if name == student.name:
-                    print(student.scores)
-
-        elif option == 0:
-            running = False
-
-        else:
-            print("Valoarea selectata nu e in lista")
+            else:
+                print("Valoarea selectata nu e in lista")
+    mode = input("prof/stud: ")
