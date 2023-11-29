@@ -279,6 +279,306 @@
         "c.indirect, c.indirect, c.indirect"
       ],
       "correct_answer": "nume predicativ, c.scop, c.scop"
+    },
+    {
+      "question": "Indică seria în care toate cuvintele conţin i scurt:",
+      "answers": [
+        "feriţi, tei, picior, unchi",
+        "câini, nuci, străini, îţi",
+        "taci, luaşi, unghi, purtai",
+        "buni, îmi, vezi, oricum"
+      ],
+      "correct_answer": "buni, îmi, vezi, oricum"
+    },
+    {
+      "question": "Indică enunţul corect:",
+      "answers": [
+        "litera e se pronunţă i semivocalic în cuvântul eşti",
+        "litera o se pronunţă u semivocalic în cuvântul oameni",
+        "litera i este semn grafic în cuvântul ghiocel",
+        "litera x se pronunţă ks în cuvântul examen"
+      ],
+      "correct_answer": "litera o se pronunţă u semivocalic în cuvântul oameni"
+    },
+    {
+      "question": "Indicaţi seria în care toate cuvintele sunt corect despărţite în silabe:",
+      "answers": [
+        "somn-am-bul, sub-u-ni-ta-te, su-per-flu-u, un-ghi-e, un-gu-ent",
+        "mi-jloc, piu-ne-ză, punc-tu-al, mons-tru, prun-cu-ci-de-re",
+        "res-trân-ge, trans-pi-ra, res-pi-ra-ţi-e, i-nau-gu-ra-re, ple-oa-pă",
+        "pâ-slă, păt-la-gi-nă, paş-op-tist, fe-bru-a-ri-e, in-stinc-tiv"
+      ],
+      "correct_answer": "somn-am-bul, sub-u-ni-ta-te, su-per-flu-u, un-ghi-e, un-gu-ent"
+    },
+    {
+      "question": "Indicaţi seria care conţine numai cuvinte scrise corect:",
+      "answers": [
+        "oblojală, greşală, clujean, ieşean, roşaţă",
+        "biologă, capot, cearşaf, cocs, confort, adaos",
+        "crea, creez, creează, creeai, creind",
+        "Cezar Bolliac, Anton Pann, B.P.Haşdeu, C.Negruzzi, Al.Philipide"
+      ],
+      "correct_answer": "biologă, capot, cearşaf, cocs, confort, adaos"
+    },
+    {
+      "question": "Se scrie cu iniţială majusculă:",
+      "answers": [
+        "întotdeauna după două puncte",
+        "întotdeauna după semnul întrebării sau cel al exclamării",
+        "după două puncte, când începe vorbirea directă",
+        "întotdeauna după punctele de suspensie"
+      ],
+      "correct_answer": "după două puncte, când începe vorbirea directă"
+    },
+    {
+      "question": "Indicaţi seria corectă:",
+      "answers": [
+        "Institutul de economie mondială, Muzeul literaturii române,Organizaţia Naţiunilor Unite",
+        "Institutul de Economie mondială, Muzeul Literaturii române, Uniunea Artiştilor plastici",
+        "Institutul de Economie Mondială, Muzeul Literaturii Române, Uniunea Artiştilor Plastici",
+        "Ziua Internaţională a Femeii, Anul Nou, O Scrisoare Pierdută, Câmpia română"
+      ],
+      "correct_answer": "Institutul de Economie Mondială, Muzeul Literaturii Române, Uniunea Artiştilor Plastici"
+    },
+    {
+      "question": "Indică seria sinonimică alcătuită corect:",
+      "answers": [
+        "intuiţie, presimţire, anticipare, previziune, delaţiune",
+        "respect, stimă, consideraţie, condescendenţă, aprehensiune",
+        "euforie, beatitudine, filantropie, bonomie, extaz",
+        "auster, sobru, puritan, ascetic, cumpătat"
+      ],
+      "correct_answer": "auster, sobru, puritan, ascetic, cumpătat"
+    },
+    {
+      "question": "În textul: \"- Te opresc, magariule, să faci de mauvaises plaisanteries pi conta doamnei Grégoraschko, soţia mè!\" ( I.L.Caragiale), întâlnim:",
+      "answers": [
+        "arhaisme",
+        "termeni tehnici",
+        "elemente de argou",
+        "elemente de jargon"
+      ],
+      "correct_answer": "elemente de jargon"
+    },
+    {
+      "question": "În enunţul: \"Era neliniştit, deoarece avea ceva probleme cu fiscul.\", întâlnim următoarele procedee de îmbogăţire a vocabularului:",
+      "answers": [
+        "derivarea",
+        "derivarea, compunerea şi conversiunea",
+        "derivarea şi conversiunea",
+        "conversiunea"
+      ],
+      "correct_answer": "derivarea, compunerea şi conversiunea"
+    },
+    {
+      "question": "În enunţul: \"Datorită eforturilor domnului profesor de matematică am reuşit să ne pregătim foarte bine pentru examene.\", cuvintele subliniate sunt, în ordine, la cazul:",
+      "answers": [
+        "G, G, G, A, D",
+        "D, D, D, A, N",
+        "G, G, A, A, A",
+        "D, G, N, A, A"
+      ],
+      "correct_answer": "D, G, N, A, A"
+    },
+    {
+      "question": "Indică numărul de articole din textul: „Un om şedea jos pe pământ, altul pe prispa casei celei vechi, dar cel de pe prispă nu părea a fi de-al casei.”",
+      "answers": [
+        "6 articole",
+        "7 articole",
+        "8 articole",
+        "5 articole"
+      ],
+      "correct_answer": "5 articole"
+    },
+    {
+      "question": "În enunţul: „Iarna, în luna decembrie, când se îmbolnăvi grav de o ciudată boală de stomac, fu eliberat din armată.”, întâlnim:",
+      "answers": [
+        "1 adjectiv, 3 adverbe",
+        "2 adjective, 2 adverbe",
+        "3 adjective, 3 adverbe",
+        "2 adjective, 1 adverb"
+      ],
+      "correct_answer": "1 adjectiv, 3 adverbe"
+    },
+    {
+      "question": "În enunţul: „El îi scrise din nou, dar de astă dată îl dojeni cu vârf şi îndesat.”, întâlnim:",
+      "answers": [
+        "un adverb /locuţiune adverbială",
+        "două adverbe /locuţiuni adverbiale",
+        "trei adverbe /locuţiuni adverbiale",
+        "niciun adverb /locuţiune adverbială"
+      ],
+      "correct_answer": "trei adverbe /locuţiuni adverbiale"
+    },
+    {
+      "question": "Indicaţi, în ordine, tipul locuţiunilor din textul: „Ţi-am spus din capul locului că am să dau totul în vileag în caz că orice alt argument se va dovedi de prisos.”",
+      "answers": [
+        "adverbială, verbală, conjuncţională, adjectivală",
+        "adverbială, verbală, prepoziţională, pronominală",
+        "substantivală, verbală, conjuncţională",
+        "verbală, verbală, verbală"
+      ],
+      "correct_answer": "adverbială, verbală, conjuncţională, adjectivală"
+    },
+    {
+      "question": "Indicaţi valoarea morfologică a cuvintelor subliniate din enunţurile: 1.Din moment ce te-am anunţat, eu mi-am făcut datoria. 2.I-am spus a mia oară că greşeşte. 3.Ori de câte ori îl văd, îmi vine să râd.",
+      "answers": [
+        "locuţiune conjuncţională, numeral adverbial, locuţiune adverbială",
+        "adj. pronominal + substantiv, numeral adverbial, locuţiune adverbială",
+        "locuţiune adverbială, numeral adverbial, locuţiune adverbială",
+        "locuţiune adverbială, numeral adverbial, locuţiune adverbială"
+      ],
+      "correct_answer": "locuţiune conjuncţională, numeral adverbial, locuţiune adverbială"
+    },
+    {
+      "question": "Indicaţi numărul de pronume din enunţul: „Merseră ei toţi ce merseră, până făcutu-li-s-a foame.”",
+      "answers": [
+        "2",
+        "5",
+        "4",
+        "3"
+      ],
+      "correct_answer": "3"
+    },
+    {
+      "question": "În fraza: „De ce să plece lumea aşa fără de niciun temei, înainte de a vedea ce e de văzut, de a auzi ce e de auzit şi de a ospăta ceea ce s-a pregătit la cuhniile sfântului lăcaş?” (Sadoveanu), propoziţia principală este:",
+      "answers": [
+        "De ce să plece lumea...",
+        "De ce să plece lumea aşa fără de niciun temei...",
+        "De ce să plece lumea aşa fără de niciun temei, înainte de a vedea,...de a auzi...şi de a ospăta...",
+        "...ceea ce s-a pregătit la cuhniile sfântului lăcaş."
+      ],
+      "correct_answer": "De ce să plece lumea aşa fără de niciun temei, înainte de a vedea,...de a auzi...şi de a ospăta..."
+    },
+    {
+      "question": "Stabileşte varianta corectă de analiză a cuvintelor subliniate din enunţul: „E interesant ce spune şi afirmaţia lui e uşor de verificat. ”",
+      "answers": [
+        "adverb /nume predicativ – adverb /c.c. mod",
+        "adjectiv /nume predicativ – adjectiv /nume predicativ",
+        "adverb /nume predicativ – adverb /nume predicativ",
+        "adverb /c.c. mod – adjectiv /nume predicativ"
+      ],
+      "correct_answer": "adverb /nume predicativ – adverb /c.c. mod"
+    },
+    {
+      "question": "Indicaţi enunţurile în care există cuvinte numai la un singur caz: 1.Vino repede, dragă cumetre...2.În birou îşi încuia de obicei mapa cu documente. 3.Aflându-se în opoziţie, e normal să lupte contra voastră. 4.Greşeala e a noastră, nu a ta, să fii liniştit! 5.I-am spus şi cumnatei acestuia.",
+      "answers": [
+        "1, 2, 3, 4, 5",
+        "2, 5",
+        "2, 3, 5",
+        "1, 3, 4"
+      ],
+      "correct_answer": "1, 3, 4"
+    },
+    {
+      "question": "Verbele la gerunziu din enunţurile: „1.Purtându-te mai frumos, vei fi apreciat. 2.Tot ţipând, a răguşit. 3.Se aude tunând.”, îndeplinesc funcţia sintactică de:",
+      "answers": [
+        "1.c.c. condiţional 2.c.c. cauză 3.subiect",
+        "1.c.c. mod 2.c.c. mod 3.c.direct",
+        "1.c.c. condiţional 2.c.c. timp 3.subiect",
+        "1.c.c. timp 2.c.c. cauză 3.c.c. mod"
+      ],
+      "correct_answer": "1.c.c. condiţional 2.c.c. cauză 3.subiect"
+    },
+    {
+      "question": "Marcaţi enunţul în care există un anacolut:",
+      "answers": [
+        "Joia, de la şase la şapte, indiferent de vreme, noi alergăm prin parc.",
+        "Toţi cei aflaţi acum în această sală ne vom aminti de emoţiile pe care le încercăm.",
+        "Acela pe care l-ai văzut ieri la emisiunea culturală, eu îl cunosc încă din copilărie.",
+        "Toamna, pentru mai mulţi ani de acum înainte, ne vom întâlni la deschiderea anului şcolar ."
+      ],
+      "correct_answer": "Acela pe care l-ai văzut ieri la emisiunea culturală, eu îl cunosc încă din copilărie."
+    },
+    {
+      "question": "Indicaţi enunţul care conţine cel puţin un predicat verbal:",
+      "answers": [
+        "Toţi pomii sunt înfloriţi.",
+        "Părea un om bun.",
+        "A nu înţelege un lucru nu înseamnă a-l ignora.",
+        "Ce-a fost cu el de-a fost atât de supărat?"
+      ],
+      "correct_answer": "Ce-a fost cu el de-a fost atât de supărat?"
+    },
+    {
+      "question": "În enunţurile: „1.Tot meritul este al echipei. 2.Ale cui sunt cărţile? 3.Haina de acolo este a mea. 4.Chipul i-a rămas ca de piatră.”, există un nume predicativ în nominativ:",
+      "answers": [
+        "în niciunul",
+        "în 1, 2 şi 3",
+        "în 2 şi 4",
+        "în 3"
+      ],
+      "correct_answer": "în 3"
+    },
+    {
+      "question": "În enunţul: „Ce te-ai supărat aşa, Valentine?”, subiectul este:",
+      "answers": [
+        "inclus",
+        "subînţeles",
+        "ce",
+        "Valentine"
+      ],
+      "correct_answer": "inclus"
+    },
+    {
+      "question": "Indicaţi enunţul care nu conţine nicio subordonată condiţională:",
+      "answers": [
+        "Când aş fi sigur de mine, te-aş ajuta şi pe tine.",
+        "Dacă nu veneai să mă ajuţi, mă supăram.",
+        "Vrei să cunoşti adevărul, atunci întreabă-mă pe mine.",
+        "Dacă (chiar dacă) l-aş fi văzut cerşind,// tot nu l-aş fi ajutat."
+      ],
+      "correct_answer": "Dacă (chiar dacă) l-aş fi văzut cerşind,// tot nu l-aş fi ajutat."
+    },
+    {
+      "question": "În fraza: „Munca este o condiţie fără de care nimeni n-ar putea reuşi în viaţă, e începutul, uneori greu, a ceea ce are să devină pasiunea sub semnul căreia trăim.”, întâlnim următoarele tipuri de subordonate:",
+      "answers": [
+        "atributive şi completive directe",
+        "numai atributive",
+        "predicative şi atributive",
+        "completive directe, atributive, predicative"
+      ],
+      "correct_answer": "completive directe, atributive, predicative"
+    },
+    {
+      "question": "În fraza: „De unde să ştie el unde să mă caute, dacă nu-i spune nimeni?”, între propoziţiile subordonate se află şi:",
+      "answers": [
+        "o condiţională",
+        "o cauzală",
+        "o locală",
+        "o temporală"
+      ],
+      "correct_answer": "o cauzală"
+    },
+    {
+      "question": "Indicaţi enunţul care conţine o completivă directă:",
+      "answers": [
+        "Dacă e să plec până vii tu, îţi las cheia la un vecin.",
+        "Nu mai are sens să te duci acolo.",
+        "Toţi se bizuie pe ce voi face eu.",
+        "Văzând 1// unde ajunge,2// s-a temut să continue.1//"
+      ],
+      "correct_answer": "Toţi se bizuie pe ce voi face eu."
+    },
+    {
+      "question": "În frazele: „1.Dacă dai, n-ai. 2.Dacă ai dat, d-aia n-ai acum. 3.Dacă dai e pentru că ai. 4.Dacă nu dai, tot nu ai.”, subordonatele introduse prin dacă sunt, în ordine:",
+      "answers": [
+        "1.condiţională 2.condiţională 3.condiţională 4.condiţională",
+        "1.condiţională 2.cauzală 3.subiectivă 4.concesivă",
+        "1.cauzală 2.condiţională 3.condiţională 4.consecutivă",
+        "1.cauzală 2.cauzală 3.subiectivă 4.concesivă"
+      ],
+      "correct_answer": "1.condiţională 2.cauzală 3.subiectivă 4.concesivă"
+    },
+    {
+      "question": "În fraza: „Hai să mă ajuţi, eu nu mă descurc singur!”, există, în afara principalei:",
+      "answers": [
+        "a) o subiectivă",
+        "b) o completivă de loc",
+        "c) o finală şi o cauzală",
+        "d) toate propoziţiile sunt principale"
+      ],
+      "correct_answer": "c) o finală şi o cauzală"
     }
   ]
 }
