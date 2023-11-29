@@ -3,13 +3,38 @@ from answer import Answer
 from database import initialise_database
 from JSONtoDatabase import initialise_database_again
 import random
+import csv
+import os
+from student import Student, initialise_students
 
-def display_menu():
+def display_menu_student():
     print("0. Exit")
     print("1. Take a quiz")
-    print("2. List all questions and their correct answers")
-    print("3. Filter questions based on word")
-    
+
+def display_menu_prof():
+    print("")
+    print("0. Exit")
+    print("1. List all questions and their correct answers")
+    print("2. Filter questions based on word")
+    print("3. List students")
+    print("4. List scores for a student")
+
+def add_quiz_score(name, score):
+    file_path = "quiz_scores.csv"
+
+    # Check if the file exists
+    if not os.path.exists(file_path):
+        # If the file doesn't exist, create it and add the entry
+        with open(file_path, 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(['name', 'score'])  # Header
+            writer.writerow([name, score])
+    else:
+        # If the file exists, append the entry
+        with open(file_path, 'a', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow([name, score])
+
 def take_quiz(quiz_size, questions):
     score = 0
     random.shuffle(questions)
@@ -51,28 +76,61 @@ def filter_questions(contains, questions):
 running = True
 quiz_size = 3
 questions = initialise_database_again()
-while running:
-    display_menu()
-    option = int(input("Choose option: "))
-    if option == 1:
-        score = take_quiz(quiz_size, questions)
 
-        print("Your score: " + str(score) + " out of " + str(quiz_size)) 
+mode = input("prof/stud: ")
+if mode == "stud":
+    name = input("name: ")
+    while running:
+        display_menu_student()
+        option = int(input("Choose option: "))
+        if option == 1:
+            score = take_quiz(quiz_size, questions)
+            add_quiz_score(name, score)
+            print("Your score: " + str(score) + " out of " + str(quiz_size)) 
 
-    elif option == 2:
-        for question in questions:
-            print(question)
+        elif option == 2:
+            for question in questions:
+                print(question)
 
-    elif option == 3:
-        contains = input("Filter by: ")
-        found_questions = filter_questions(contains, questions)
-        for question in found_questions:
-            print(question)
-        
-    elif option == 0:
-        running = False
+        elif option == 3:
+            contains = input("Filter by: ")
+            found_questions = filter_questions(contains, questions)
+            for question in found_questions:
+                print(question)
+            
+        elif option == 0:
+            running = False
 
-    else:
-        print("Valoarea selectata nu e in lista")
+        else:
+            print("Valoarea selectata nu e in lista")
 
-1
+elif mode == "prof":
+    students = initialise_students()
+    while running:
+        display_menu_prof()
+        option = int(input("Choose option: "))
+        if option == 1:
+            for question in questions:
+                print(question)
+
+        elif option == 2:
+            contains = input("Filter by: ")
+            found_questions = filter_questions(contains, questions)
+            for question in found_questions:
+                print(question)
+
+        elif option == 3:
+            for student in students:
+                print(student)
+
+        elif option == 4:
+            name = input("name: ")
+            for student in students:
+                if name == student.name:
+                    print(student.scores)
+
+        elif option == 0:
+            running = False
+
+        else:
+            print("Valoarea selectata nu e in lista")
